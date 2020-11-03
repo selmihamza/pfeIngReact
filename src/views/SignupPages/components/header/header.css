@@ -1,0 +1,27 @@
+.header {
+    background-color: #5899f1;
+    height: 200px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 50px;
+}
+
+.header::after {
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    right: 0px;
+    content: '';
+    display: block;
+    height: 60px;
+
+    /* margin-left: -1px; */
+    background: #5899f1;
+    transform: rotate(-1deg);
+    z-index: -1;
+}

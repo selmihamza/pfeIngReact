@@ -1,0 +1,17 @@
+.footer {
+    /* border: 1px solid red; */
+    height: 30px;
+    background: white;
+    text-align: center;
+    flex-shrink: 0;
+
+    padding: 5px;
+
+}
+
+.img-footer {
+    width: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}

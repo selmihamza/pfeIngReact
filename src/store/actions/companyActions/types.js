@@ -1,0 +1,2 @@
+export const ADD_COMPANY = "ADD_COMPANY";
+export const GET_ERROR_ADD_COMPANY = "GET_ERROR_ADD_COMPANY";

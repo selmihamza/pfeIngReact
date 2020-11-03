@@ -1,0 +1,31 @@
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sign-up>div {
+    width: 50%;
+}
+
+.form-signup {
+    width: 70%;
+    margin: auto auto;
+    padding: 2% 1%;
+}
+
+
+@media (min-width: 320px) and (max-width: 678px) {
+    .sign-up {
+        flex-direction: column;
+    }
+
+    .form-signup {
+        width: auto;
+    }
+
+    .MuiFormControl-root,
+    input {
+        width: 100% !important;
+    }
+}

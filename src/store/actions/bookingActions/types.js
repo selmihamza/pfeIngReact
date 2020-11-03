@@ -1,0 +1,2 @@
+export const GET_LAST_RIDE = "GET_LAST_RIDE";
+export const GET_LAST_RIDE_ERROR = "GET_LAST_RIDE_ERROR";
